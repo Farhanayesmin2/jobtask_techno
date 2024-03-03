@@ -5,3 +5,4 @@
 2. Npm install
 3. Tailwind Css
 4. React-Router-Dom - npm install react router dom
+5. React Icon -   npm install react-icons --save
