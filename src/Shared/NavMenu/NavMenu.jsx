@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../public/svg.png";
+import logo from "../../../public/miro.svg";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -14,11 +14,11 @@ const Navmenu = () => {
     const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
     return (
-        <div className="container mx-auto w-[1432px] h-[91px] bg-white border-b border-zinc-300 flex justify-between items-center">
+        <div className="container mx-auto lg:mx-8 w-[1432px] h-[91px] bg-white border-b border-zinc-300 flex justify-between items-center">
             {/* Left side with logo and menu */}
             <div className="flex items-center">
                 {/* Logo */}
-                <img className="w-32 h-91" src={logo} alt="Logo" />
+                <img className="" src={logo} alt="Logo" />
 
                 {/* Menu items */}
                 <nav className="hidden lg:flex items-start gap-2 ml-4 mr-2">

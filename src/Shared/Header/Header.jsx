@@ -10,7 +10,7 @@ const Header = () => {
             <div className="md:w-1/2 flex flex-col space-y-2">
                 <div>
                     <h1 className="text-5xl w-[375px] text-[#050038] font-bold">Take ideas from better to best</h1>
-                    <p className='text-sm mt-2 text-gray-800'> Miro is your teams visual platform to connect,<br></br> collaborate, and create — together.</p>
+                    <p className='text-sm my-2 text-gray-800'> Miro is your teams visual platform to connect,<br></br> collaborate, and create — together.</p>
                 </div>
                 <div className="flex flex-col space-y-4 items-start">
                     <input type="email" placeholder="Enter your work email" className="py-2 px-4 w-96 border-gray-400 border outline-none rounded-full" />
