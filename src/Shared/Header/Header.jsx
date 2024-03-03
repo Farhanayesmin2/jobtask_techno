@@ -9,10 +9,13 @@ const Header = () => {
         <h1 className="text-5xl w-[375px] text-[#050038] font-bold">Take ideas from better to best</h1>
         <p  className='text-sm mt-2 text-gray-800'> Miro is your teams visual platform to connect,<br></br> collaborate, and create — together.</p>
       </div>
-      <div className="flex space-x-4 items-center">
-        <input type="email" placeholder="Enter your work email" className="py-2 px-4 border rounded-md" />
-        <button className="bg-blue-500 text-white py-2 px-4 rounded-md">Sign up free →</button>
-      </div>
+      <div className="flex flex-col space-y-4 items-start
+      ">
+          <input type="email" placeholder="Enter your work email" className="py-2 px-4 w-96 border-gray-400  border outline-none rounded-full" />
+          <button className="bg-[#4262FF] text-white py-2 px-4 w-96 rounded-full">Sign up free →</button>
+
+        </div>
+        {/* Small
       {/* Small text after buttons */}
       <p className="text-sm">Collaborate with your team within minutes</p>
       {/* 5 star icon */}
