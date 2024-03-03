@@ -1,10 +1,12 @@
+import Header from "../../Shared/Header/Header";
 
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>Home    Page</h1>
-        </div>
+        <>
+        <Header></Header>
+            
+        </>
     );
 };
 
