@@ -3,7 +3,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import logo from "../../../public/miro.svg";
 import { AiOutlineGlobal } from "react-icons/ai";
-import { FaArrowRightLong } from "react-icons/fa6";
+import FreeSignUpSmall from "../../Component/Button/FreeSignUpSmall/FreeSignUpSmall";
 
 const Navmenu = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -153,15 +153,7 @@ const Navmenu = () => {
           </button>
 
           {/* Sign up button */}
-          <Link
-            to="#"
-            className="inline-flex items-center justify-center text-sm border border-[#4262FF] rounded-full bg-[#4262FF] px-6 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-          >
-            <span className="flex items-center">
-              <span className="text-sm"> Sign up free</span>
-              <FaArrowRightLong className="ml-1" />
-            </span>
-          </Link>
+        <FreeSignUpSmall></FreeSignUpSmall>
         </div>
       </div>
     </div>
