@@ -3,6 +3,7 @@ import img1 from "../../../public/g.svg";
 import img2 from "../../../public/get.svg";
 import img3 from "../../../public/cap.svg";
 import img4 from "../../../public/headerimage-without-text.svg";
+import SignUpButton from '../../Component/Button/SignUpButton/SignUpButton';
 
 const Header = () => {
     return (
@@ -13,7 +14,7 @@ const Header = () => {
                     <p className='text-base md:text-lg space-y-1 text-[#050038]'> Miro is your team's visual platform to connect,<br /> collaborate, and create — together.</p>
                     <div className="flex flex-col space-y-4 items-start">
                         <input type="email" placeholder="Enter your work email" className="py-2 px-4 w-full md:w-96 border-gray-400 border outline-none rounded-full" />
-                        <button className="bg-[#4262FF] text-white py-2 px-4 w-full md:w-96 rounded-full">Sign up free →</button>
+                        <SignUpButton></SignUpButton>
                     </div>
                     <div className='flex bg-[#F5F5F7] w-[350px] p-[14px]'>
                         <div className="flex flex-col items-start">
@@ -33,7 +34,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="md:pl-8">
-                    <img src={img4} alt="Image-header"  />
+                    <img src={img4} alt="Image-header" />
                 </div>
             </div>
         </section>

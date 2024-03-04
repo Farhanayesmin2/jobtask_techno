@@ -5,7 +5,7 @@ import img4 from "../../../public/Vector.svg";
 import img5 from "../../../public/Volvo_Index_Only.svg.svg";
 function TrustedSection() {
   return (
-    <section className="  min-h-screen ">
+    <section className="min-h-screen">
          <div className="max-w-4xl mx-auto">
         <h2 className="text-[#050038] font-[18px] text-center mb-8">Trusted by 45M+ Users</h2>
         <div className="grid grid-cols-5 gap-5">
