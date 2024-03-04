@@ -12,7 +12,7 @@ const Collaboration = () => {
                         Collaborate without<br />
                         constraints
                     </h1>
-                    <div className="bg-[#FFD02F] capitalize text-[#090909] absolute object-right-top	-top-12 right-64 transform rotate-12   text-sm font-bold px-2 py-1 rounded-full">
+                    <div className="bg-[#FFD02F] uppercase p-2 font-sans text-xs text-[#090909] absolute object-right-top	-top-10 right-64 transform rotate-12  font-bold px-2 py-1 rounded-full">
               Your idea starts here
             </div>
                 </div>
