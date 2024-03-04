@@ -6,14 +6,15 @@ const Collaboration = () => {
         <>
             <div className="max-w-5xl mx-auto mt-12">
                 {/* First child div */}
-                <div className="text-center">
+                <div className="text-center relative">
                     {/* Header text */}
                     <h1 className="text-[#050038] my-12 text-4xl font-bold">
                         Collaborate without<br />
                         constraints
                     </h1>
-                    {/* Positional text on right corner */}
-                    <p className="absolute top-0 right-0">Positional Text</p>
+                    <div className="bg-[#FFD02F] absolute top-[-5px] right-[-10px]  text-[#050038] text-sm font-bold px-2 py-1 rounded-full">
+              Your idea starts here
+            </div>
                 </div>
                 {/* Second child div */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
