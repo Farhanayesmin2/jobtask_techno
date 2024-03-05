@@ -6,7 +6,7 @@ const KindTeam = () => {
     return (
         <>
         <div className="max-w-5xl mx-auto mt-12 py-8">
-            <h1 className="lg:text-5xl text-2xl lg:text-start  text-center text-[#050038] font-bold mb-4">Built for the way you work</h1>
+            <h1 className="lg:text-5xl text-2xl lg:text-start  text-center text-[#050038] font-bold mb-4">Built for all kinds of teams</h1>
             <div className="">
                 <BuiltKindTeam></BuiltKindTeam>
             </div>
