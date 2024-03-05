@@ -2,6 +2,7 @@ import BuiltBrain from "../../Section/BuiltBrain/BuiltBrain";
 import Collaboration from "../../Section/Collaboration/Collaboration";
 import ConnectTool from "../../Section/ConnectTool/ConnectTool";
 import KindTeam from "../../Section/KindTeam/KindTeam";
+import LoveWorld from "../../Section/LoveWorld/LoveWorld";
 import TrustedSection from "../../Section/TrustedSection/TrustedSection";
 import WayWork from "../../Section/WayWork/WayWork";
 import WorkTogether from "../../Section/WorkTogether/WorkTogether";
@@ -19,6 +20,7 @@ const HomePage = () => {
             <WayWork></WayWork>
             <BuiltBrain></BuiltBrain>
             <KindTeam></KindTeam>
+            <LoveWorld></LoveWorld>
         </>
     );
 };
