@@ -1,3 +1,4 @@
+import BuiltBrain from "../../Section/BuiltBrain/BuiltBrain";
 import Collaboration from "../../Section/Collaboration/Collaboration";
 import ConnectTool from "../../Section/ConnectTool/ConnectTool";
 import TrustedSection from "../../Section/TrustedSection/TrustedSection";
@@ -15,6 +16,7 @@ const HomePage = () => {
             <WorkTogether></WorkTogether>
             <ConnectTool></ConnectTool>
             <WayWork></WayWork>
+            <BuiltBrain></BuiltBrain>
         </>
     );
 };

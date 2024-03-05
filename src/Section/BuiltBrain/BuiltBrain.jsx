@@ -1,3 +1,4 @@
+import ButtonGroup from "../../Component/Button/ButtonGroup/ButtonGroup";
 
 const BuiltBrain = () => {
     return (
@@ -5,7 +6,7 @@ const BuiltBrain = () => {
             <div className="container mx-auto py-8">
                 <h1 className="text-3xl font-bold mb-4">Built for the way you work</h1>
                 <div className="flex space-x-4">
-                    {/* Buttons go here */}
+                  <ButtonGroup></ButtonGroup>
                 </div>
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="md:col-span-1">
