@@ -2,6 +2,10 @@ import BuiltKindTeam from "../../Component/Button/BuiltKindTeam/BuiltKindTeam";
 import LearnMore from "../../Component/Button/LearnMore/LearnMore";
 import RightSideImage from "../../../public/uxdesignwithoutshadow.jpg.svg";
 import { FaCheck } from "react-icons/fa6";
+import xd from "../../../public/xd.svg";
+import diamond from "../../../public/diamond.svg";
+import figma from "../../../public/figma.svg";
+import notion from "../../../public/notion.svg";
 
 const KindTeam = () => {
     return (
@@ -29,7 +33,23 @@ const KindTeam = () => {
                                 </li>
                             </ul>
                            </div>
-                        <LearnMore />
+                           <div className="my-5">
+                           <LearnMore />
+                           </div>
+
+                           <div>
+
+
+                            <h2 className="text-[#050038] mb-4 text-opacity-60 text-sm"> Integrate your favorite tools</h2>
+                            <div className="flex gap-6">
+                            <img src={diamond} alt="Brainstorming Image" className="w-[26px] h-[26px]" />
+                            <img src={xd} alt="Brainstorming Image" className="w-[26px] h-[26px]" />
+                            <img src={figma} alt="Brainstorming Image" className="w-[32px] h-[28px]" />
+                            <img src={notion} alt="Brainstorming Image" className="w-[32px] h-[28px]" />
+                            </div>
+                           
+                           </div>
+                      
                     </div>
                     <div className="lg:col-span-2 grid-cols-1 ">
                         <img src={RightSideImage} alt="Brainstorming Image" className="rounded-lg" />
