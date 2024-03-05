@@ -20,19 +20,19 @@ const LoveWorld = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         {/* Three grid text paragraphs */}
                         <div className="text-center lg:text-justify ">
-                            <img src={vmware} alt="docusign" className="mb-5" />
+                            <img src={vmware} alt="vmware" className="mb-5 lg:mx-0 mx-12" />
                             <span className="text-[#050038] text-opacity-60 text-sm text-justify	">
                                 “When the pandemic hit, those of us <br></br> who thrive on in-person <br></br> collaboration were worried that our <br></br>creativity and productivity would<br></br> suffer. Miro was the perfect tool to <br></br> help us with collaboration,<br></br> whiteboarding, and retrospectives <br></br> while remote.”
                             </span>
                         </div>
                         <div className="text-center lg:text-justify ">
-                            <img src={Docusign} alt="docusign" className="mb-5" />
+                            <img src={Docusign} alt="docusign" className="mb-5 lg:mx-0 mx-12" />
                             <span className="text-[#050038] text-opacity-60 text-sm text-justify	">
                                 “Miro helps solve one of the major <br></br> gaps in product design: how to <br></br>manage tasks across product <br></br> designers whose projects are in <br></br> different tools.”
                             </span>
                         </div>
                         <div className="text-center lg:text-justify  ">
-                            <img src={frog} alt="docusign" className="mb-5" />
+                            <img src={frog} alt="frog" className="mb-5 lg:mx-0 mx-24" />
                             <span className="text-[#050038] text-opacity-60 text-sm text-justify	" >
                                 “As we used Miro we moved from <br></br> skepticism to belief to innovation,<br></br> and now we have a tool that’s at <br></br> the core of what we do and will <br></br> continue to extend into the future.”
                             </span>
