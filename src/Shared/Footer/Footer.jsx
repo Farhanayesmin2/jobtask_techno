@@ -34,7 +34,13 @@ const Footer = () => {
 </div>
 
       </div>
-      <div className="col-span-3 border border-blue-500 bg-gray-300">Second Column (spanning 3 columns)</div>
+      <div className="col-span-3 ">
+        
+<h1 className="text-white text-4xl ">Miro.</h1>
+<hr className="text-white mt-4 w-[178px]"></hr>
+
+
+      </div>
       <div className="col-span-5 border border-green-500 bg-gray-400">Third Column (spanning 5 columns)</div>
     </div>
     </div>
