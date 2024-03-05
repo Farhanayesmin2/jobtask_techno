@@ -18,7 +18,7 @@ const KindTeam = () => {
                 <div className="mt-8 grid  lg:grid-cols-3   gap-4">
                     <div className="lg:col-span-1 grid-cols-1 justify-center">
                         <div className='lg:text-start text-center text-[#050038] text-opacity-60 '>
-                            <ul className="list-disc text-sm text-center lg:text-start ">
+                            <ul className="list-disc text-sm text-center mt-5 lg:text-start ">
                                 <li className="flex items-center mb-5">
                                     <FaCheck className="mr-5 lg:ml-0 ml-5 text-[#050038] text-center " />
                                     Build low-fi wireframes
@@ -33,14 +33,14 @@ const KindTeam = () => {
                                 </li>
                             </ul>
                            </div>
-                           <div className="my-5">
+                           <div className="my-10">
                            <LearnMore />
                            </div>
 
-                           <div>
+                           <div className="mt-14">
 
 
-                            <h2 className="text-[#050038] lg:text-start text-center mb-4 text-opacity-60 text-sm"> Integrate your favorite tools</h2>
+                            <h2 className="text-[#050038] lg:text-start text-center mb-5 text-opacity-60 text-sm"> Integrate your favorite tools</h2>
                             <div className="flex gap-6  lg:items-start lg:justify-start items-center justify-center">
                             <img src={diamond} alt="Brainstorming Image" className="w-[26px] h-[26px]" />
                             <img src={xd} alt="Brainstorming Image" className="w-[26px] h-[26px]" />

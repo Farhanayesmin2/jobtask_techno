@@ -13,7 +13,7 @@ const BuiltBrain = () => {
                 <div className="mt-8 grid  lg:grid-cols-3   gap-4">
                     <div className="lg:col-span-1 grid-cols-1 justify-center">
                         <div className='lg:text-start text-center'>
-                            <p className="text-lg text-[#050038]">Brainstorming</p>
+                            <p className="text-lg mt-5 text-[#050038]">Brainstorming</p>
                             <div className='my-8'>
                                 <span className="text-opacity-75   text-[#050038] md:text-sm">Unleash creative ideas and build on<br></br> them with the help of sticky notes, <br></br>images, mind maps, videos, drawing<br></br> capabilities — the list goes on.</span>
                             </div>  </div>
