@@ -18,7 +18,7 @@ const Navmenu = () => {
         {/* Left side with logo and menu */}
         <div className="flex items-center">
           {/* Logo */}
-          <img className="h-10 mr-4" src={logo} alt="Logo" />
+          <img className="lg:h-10 h-14  mr-4" src={logo} alt="Logo" />
 
           {/* Menu items */}
           <nav className="hidden lg:flex items-center gap-4">
@@ -131,7 +131,7 @@ const Navmenu = () => {
         </div>
 
         {/* Right side with login button, global icon, and language change */}
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center   space-x-5">
           {/* Global icon */}
           <div className="flex items-center">
             <AiOutlineGlobal className="w-6 h-6" />
@@ -145,13 +145,12 @@ const Navmenu = () => {
           </div>
 
           {/* Contact sales */}
-          <div className="cursor-pointer">Contact Sales</div>
+          <div className="cursor-pointer lg:text-lg text-xs">Contact Sales</div>
 
           {/* Login button */}
-          <button className="text-[#050038] cursor-pointer hover:underline">
+          <button className="text-[#050038] lg:text-lg text-xs cursor-pointer hover:underline">
             Login
           </button>
-
           {/* Sign up button */}
         <FreeSignUpSmall></FreeSignUpSmall>
         </div>
