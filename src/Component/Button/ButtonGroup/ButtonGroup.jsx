@@ -4,7 +4,7 @@ const ButtonGroup = () => {
   return (
     <>
      
-      <div className="flex space-x-4">
+      <div className="flex flex-wrap lg:justify-start justify-center space-x-4">
         <Link
           to="/brainstorming"
           className=" bg-white text-sm text-[#050038] hover:bg-[#F1F3FD] rounded-full transition-colors duration-300 p-3"
