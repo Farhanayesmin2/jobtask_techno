@@ -2,6 +2,8 @@ import { FaMinus } from "react-icons/fa6";
 import fb from "../../../public/fb.svg"
 import tw from "../../../public/tw.svg"
 import yt from "../../../public/yt.svg"
+import CopyImage from "../../../public/Copy.svg"
+import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <>
@@ -64,10 +66,42 @@ const Footer = () => {
     </ul>
     </div>
       </div>
-      <div className="col-span-5 border border-green-500 bg-gray-400">Third Column (spanning 5 columns)</div>
+      <div className="col-span-5">
+    <div className="bg-[#FFC247] rounded-[50px] relative">
+        <div className="bg-cover bg-center z-10 flex justify-center items-center">
+            <img src={CopyImage} alt="Copy Image" />
+        </div>
+        <div className="absolute inset-0 p-6 flex flex-col text-start">
+            <h1 className="text-black font-bold text-xl mb-5">Sign up to our newsletter</h1>
+            <p className="text-black text-sm">Receive the latest mobile security news, exclusive discounts & offers straight to your inbox!</p>
+            <form className="flex items-center mt-6">
+                <div className="flex">
+                    <fieldset className="w-full space-y-1">
+                        <div className="flex">
+                            <input type="email" name="email" placeholder="Email address" className="w-full p-2 text-start border sm:text-sm rounded-l-full" />
+                            <span className="flex items-center bg-[#050038] text-white px-4 py-2 pointer-events-none sm:text-sm rounded-r-full">Submit</span>
+                        </div>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
     </div>
+</div>
+
+
+
+
+</div>
+<div className="text-white text-xs pb-12 lg:text-start text-center">
+<span>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other <br></br>countries. App Store is a service mark of Apple Inc. Android, Google Play <br></br> and the Google Play logo are trademarks of Google LLC.</span>
+   
+</div>
+
+   </div>
+   
     </div>
-    </div>
+   
+   
         </>
     );
 };
