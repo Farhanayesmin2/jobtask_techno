@@ -1,5 +1,7 @@
 import CustomersButton from "../../Component/Button/CustomersButton/CustomersButton";
-
+import Docusign from "../../../public/Docusign.svg";
+import frog from "../../../public/frog.svg";
+import vmware from "../../../public/vmware.svg";
 const LoveWorld = () => {
     return (
         <>
@@ -12,24 +14,24 @@ const LoveWorld = () => {
                 </div>
                 {/* Text div is here */}
                 <div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                     {/* Three grid text paragraphs */}
-                    <div className="text-center lg:text-justify">
-                        <p className="text-[#050038] text-lg my-2">Free forever</p>
+                    <div className="text-center lg:text-justify w-[360px] h-[460px]">
+                    <img src={vmware} alt="docusign" className="mb-5" />
                         <span className="text-[#050038] text-opacity-60 text-sm text-justify	">
-                        “When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”
+                        “When the pandemic hit, those of us <br></br> who thrive on in-person <br></br> collaboration were worried that our <br></br>creativity and productivity would<br></br> suffer. Miro was the perfect tool to <br></br> help us with collaboration,<br></br> whiteboarding, and retrospectives <br></br> while remote.”
                         </span>
                     </div>
-                    <div className="text-center lg:text-justify">
-                        <p className="text-[#050038] text-lg my-2">Easy integrations</p>
+                    <div className="text-center lg:text-justify w-[360px] h-[460px]">
+                    <img src={Docusign} alt="docusign" className="mb-5" />
                         <span className="text-[#050038] text-opacity-60 text-sm text-justify	">
-                        “Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”
+                        “Miro helps solve one of the major <br></br> gaps in product design: how to <br></br>manage tasks across product <br></br> designers whose projects are in <br></br> different tools.”
                         </span>
                     </div>
-                    <div className="text-center lg:text-justify">
-                        <p className="text-[#050038] text-lg my-2">Security first</p>
+                    <div className="text-center lg:text-justify w-[360px] h-[460px]">
+                    <img src={frog} alt="docusign" className="mb-5" />
                         <span className="text-[#050038] text-opacity-60 text-sm text-justify	" >
-                        “As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”
+                        “As we used Miro we moved from <br></br> skepticism to belief to innovation,<br></br> and now we have a tool that’s at <br></br> the core of what we do and will <br></br> continue to extend into the future.”
                         </span>
                     </div>
                 </div>
