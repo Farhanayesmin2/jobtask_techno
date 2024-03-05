@@ -6,13 +6,13 @@ const BuiltBrain = () => {
   return (
     <>
       <div className="max-w-5xl mx-auto mt-12 py-8">
-        <h1 className="lg:text-5xl text-[#050038] font-bold mb-4">Built for the way you work</h1>
+        <h1 className="lg:text-5xl text-2xl lg:text-start  text-center text-[#050038] font-bold mb-4">Built for the way you work</h1>
         <div className="">
           <ButtonGroup />
         </div>
-        <div className="mt-8 grid  lg:grid-cols-3  grid-cols-2 gap-4">
-          <div className="col-span-1 justify-center">
-            <div>
+        <div className="mt-8 grid  lg:grid-cols-3   gap-4">
+          <div className="lg:col-span-1 grid-cols-1 justify-center">
+            <div className='lg:text-start text-center'>
               <p className="text-lg text-[#050038]">Brainstorming</p>
               <div className='my-8'>
 
@@ -21,7 +21,7 @@ const BuiltBrain = () => {
             </div>  </div>
             <LearnMore />
           </div>
-          <div className="lg:col-span-2 col-span-1">
+          <div className="lg:col-span-2 grid-cols-1 ">
             <img src={RightSideImage} alt="Brainstorming Image" className="rounded-lg" />
           </div>
         </div>
