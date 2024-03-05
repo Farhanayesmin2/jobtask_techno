@@ -1,3 +1,4 @@
+import { FaMinus } from "react-icons/fa6";
 import fb from "../../../public/fb.svg"
 import tw from "../../../public/tw.svg"
 import yt from "../../../public/yt.svg"
@@ -27,7 +28,7 @@ const Footer = () => {
           <a className="underline"  href="/terms-of-service">Terms of Service</a>
         </div>
 
-        <div className="text-xs my-4 text-white">
+        <div className="text-xs my-5 text-white">
           <span className="mb-3">Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356</span>
           <p className="mt-3">Designed & developed by Bigger Picture</p>
         </div>
@@ -37,9 +38,31 @@ const Footer = () => {
       <div className="col-span-3 ">
         
 <h1 className="text-white text-4xl ">Miro.</h1>
-<hr className="text-white mt-4 w-[178px]"></hr>
-
-
+<hr className="text-white mt-8 w-[178px]"></hr>
+<div className="mt-14">
+<ul className="list-none">
+      <li className="flex items-center font-bold text-[#FFC247] my-5 text-md">
+        <FaMinus className="mr-3" />
+        iPhone
+      </li>
+      <li className="flex items-center font-bold my-5 text-[#FFC247] text-md">
+        <FaMinus className="mr-3" />
+        Android
+      </li>
+      <li className="flex items-center font-bold my-5 text-[#FFC247] text-md">
+        <FaMinus className="mr-3" />
+        Help
+      </li>
+      <li className="flex items-center font-bold my-5 text-[#FFC247] text-md">
+        <FaMinus className="mr-3" />
+        About
+      </li>
+      <li className="flex items-center font-bold text-[#FFC247] text-md">
+        <FaMinus className="mr-3" />
+        Insights
+      </li>
+    </ul>
+    </div>
       </div>
       <div className="col-span-5 border border-green-500 bg-gray-400">Third Column (spanning 5 columns)</div>
     </div>
